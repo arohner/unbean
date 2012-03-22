@@ -19,7 +19,7 @@
   ([m]
      (let [cls (-> m :class)]
        (when-not cls
-         (throw (Exception "map doesn't contain :class")))
+         (throw (Exception. "map doesn't contain :class")))
        (unbean (dissoc m :class) cls)))
   ([m class]
      (let [inst (inst-class class)]
