@@ -1,4 +1,4 @@
-(defproject unbean "0.1.0"
+(defproject unbean "0.1.1"
   :description "A simple library for generating java classes from bean maps"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
